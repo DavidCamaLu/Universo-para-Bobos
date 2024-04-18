@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.ph_100{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ptb_50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.max-width{
+    width: 100%;
+}
+
+.grid-c-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.grid-c-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.align-center{
+    align-items: center;
+}
